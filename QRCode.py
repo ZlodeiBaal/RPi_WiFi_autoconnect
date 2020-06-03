@@ -37,7 +37,7 @@ def is_connected():
 
 #Check if ARM
 Platform = DecideParams()
-testmod = True #To test on Windows machine without connections
+testmod = False #To test on Windows machine without connections
 
 
 if Platform=='RPiOS' or Platform=='UNIX' or testmod:
