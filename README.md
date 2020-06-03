@@ -23,7 +23,7 @@ https://www.raspberrypi.org/documentation/configuration/wireless/headless.md
 
 Connection part in `script.py` file.
 
-#QR code
+# QR code
 
 OpenCV  has a built-in module for reading GR codes. But, unfortunately, it does not work on many assemblies. For example, in OpenVino.
 So, we will use Zbar scaner. There is a few implimentation of it. This implimentation work for RPi - https://github.com/NaturalHistoryMuseum/pyzbar/ . You can install it with:
