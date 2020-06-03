@@ -44,7 +44,7 @@ Just insert your password after "P:" and before ";", and network ssid after "S:"
 
 ![example](sample.png)
 
-#Work on the startup
+# Work on the startup
 
 It is assumed that you use this script without a monitor and without the Internet. Therefore, it should start at the start itself. I explored several approaches for automatically running scripts on Raspberry Pi. For my purposes, this approach was most suitable - https://stackoverflow.com/questions/60431499/running-an-openvino-python-script-on-boot-for-raspberry-pi
 
@@ -76,11 +76,11 @@ WantedBy=graphical.target
 
 And activate it with `sudo systemctl enable openvino-app.service`
 
-#Few word about cameras
+# Few word about cameras
 
 In my script I use USB camera. But you can swithc on RRi camera by changing `RPicamera = True`
 
-#Working not on RPi
+# Working not on RPi
 
 This script work on any PC if you switch testmod to True: `testmod=True`. But it will not provide wifi connection, just qr code detection|recognition part.
 If you want to start on other platform - find how wifi service work on it.
